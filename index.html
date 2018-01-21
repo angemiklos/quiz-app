@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="float-grid.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role='banner'>
+      <h1>Memory Game - U.S. Capitals</h1> 
+    </header>
+    <main role='main'>
+      <div class='row'>
+        <div class='col-12'>
+          <div class='bkg-img' ><img src=https://upload.wikimedia.org/wikipedia/commons/1/1e/Map_of_USA_showing_state_names.png height= 300px alt='U.S. Map with capitals'>
+          </div>
+          <form id='game-home' class='game-home' role='Game Selection'>
+            <h2>Select the number of questions and the start button to play!</h2>
+            <div class='rb'>
+              <input type='radio' name='questions' value='5' > 5 Questions
+              <input type='radio' name='questions' value='10' checked> 10 Questions
+              <input type='radio' name='questions' value='50' > All 50 States!
+            </div>
+            <button id='js-play' class='js-enable-button' form='game-home' name='play' autofocus>PLAY</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

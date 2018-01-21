@@ -1,0 +1,88 @@
+body {
+  background-color : cyan; 
+}
+
+header, h2, h3, p, footer {
+  font-family : 'Acme', sans-serif;
+  /* display : block; */
+  margin : 15px auto;
+  text-align : center;
+}
+
+.bkg-img img {
+  display : block; 
+  margin : 0 auto;
+  box-shadow : 0.4em 0.4em 1em -0.2em olive;
+}
+
+.rb {
+  /*display : block; */
+  margin : 0 auto;
+  text-align : center; 
+} 
+
+/* positioning for the main page question buttons */
+.rb input {
+  margin : 0 0 25px 20px;
+}
+
+/* positioning for the question page question buttons */
+.js-q input {
+  margin : 18px 15px 0 40px 
+}
+
+button {
+  display : block; 
+  border : 0;
+  font-weight: bold;
+  border-radius : 5px;
+  padding: 8px 16px;  
+}
+
+/* positioning for the main page PLAY button */
+#js-play {
+  margin : 0 auto; 
+}
+
+/* positioning for the question page NEXT button */
+#js-next {
+  margin : 30px auto; 
+}
+
+.js-disable-button {
+  background: linear-gradient(#8f708f, #503f50);
+  cursor: default;
+  color: #000;
+}
+
+.js-enable-button {
+  background: linear-gradient(#49708f, #293f50);
+  cursor: pointer;
+  color: #fff;
+}
+
+
+/* shadowing for all images */
+.state-loc img {
+  box-shadow : 0.4em 0.4em 1em -0.2em olive;
+}
+
+figcaption {
+  margin : 10px 0 0 0;
+}
+
+.js-game-play {
+  /* display : block; */
+  margin : 0 auto;
+  float : right;
+} 
+
+.correct-answer {
+  padding : 5px;
+  border : 3px solid green;
+}
+
+.wrong-answer {
+  padding : 5px;
+  border : 3px solid red;
+}
