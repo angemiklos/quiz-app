@@ -47,7 +47,6 @@ input:focus {
 /* positioning for the question page question buttons */
 .js-rb input {
   margin : 18px 15px 0 40px 
-/*  text-justify : left; */
 }
 
 button {
@@ -91,7 +90,6 @@ figcaption {
 }
 
 .js-game-play {
-  /* display : block; */
   margin : 0 auto;
   float : right;
 } 
