@@ -2,9 +2,8 @@ body {
   background-color : cyan; 
 }
 
-header, h2, h3, p, footer {
+header, legend, h2, h3, p, footer {
   font-family : 'Acme', sans-serif;
-  /* display : block; */
   margin : 15px auto;
   text-align : center;
 }
@@ -15,10 +14,29 @@ header, h2, h3, p, footer {
   box-shadow : 0.4em 0.4em 1em -0.2em olive;
 }
 
+fieldset {
+  border : none;
+}
+
+legend {
+  padding : 20px 0 0 0;
+  font-size : 24px;
+}
+
+/* turns off the blue autofocus square around the focused button */
+input:focus {
+  outline : none;
+} 
+
+/* positioning for the main page radio button fieldset */
 .rb {
-  /*display : block; */
   margin : 0 auto;
   text-align : center; 
+} 
+
+/* positioning for the question page radio button fieldset */
+.js-rb {
+  margin : 0 auto;
 } 
 
 /* positioning for the main page question buttons */
@@ -27,8 +45,9 @@ header, h2, h3, p, footer {
 }
 
 /* positioning for the question page question buttons */
-.js-q input {
+.js-rb input {
   margin : 18px 15px 0 40px 
+/*  text-justify : left; */
 }
 
 button {
@@ -50,13 +69,13 @@ button {
 }
 
 .js-disable-button {
-  background: linear-gradient(#8f708f, #503f50);
+  background: linear-gradient(#8f708f, #503f50); 
   cursor: default;
   color: #000;
 }
 
 .js-enable-button {
-  background: linear-gradient(#49708f, #293f50);
+  background: linear-gradient(#49708f, #293f50); 
   cursor: pointer;
   color: #fff;
 }
